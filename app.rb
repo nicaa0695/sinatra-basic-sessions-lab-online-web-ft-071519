@@ -4,7 +4,7 @@ class App < Sinatra::Base
   
   confugure do 
     enable :sessions 
-    set :session_secret, "monty"
+    set :session_secret, "secret"
   end 
   
   get '/' do 
